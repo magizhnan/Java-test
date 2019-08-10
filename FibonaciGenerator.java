@@ -41,26 +41,6 @@ public class FibonaciGenerator {
 		 }		
 		return sequence;
 		
-	}
-
-    public static void main(String[] args) {
-/*
-     Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-
-        int n = scanner.nextInt();*/
-    	int n =5;
-        
-        for (int i = 0; i < n; i++) {
-
-        	BigInteger val = fibonacci(i);
-            System.out.print(val + "\t");
-        }
-        
-        System.out.println("going to get sequence");
-        Arrays.asList(getFibonacciSequence(5)).forEach(System.out::println);
-       
-    }
+	}  
 
 }
