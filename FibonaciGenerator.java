@@ -42,5 +42,9 @@ public class FibonaciGenerator {
 		return sequence;
 		
 	}  
+	
+	public static void testMe() {
+		System.out.println("Just a test method");
+	}
 
 }
