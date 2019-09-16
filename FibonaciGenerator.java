@@ -46,5 +46,8 @@ public class FibonaciGenerator {
 	public static void testMe() {
 		System.out.println("Just a test method");
 	}
+	public static void testMeBranch() {
+		System.out.println("Just a test method from branch");
+	}
 
 }
